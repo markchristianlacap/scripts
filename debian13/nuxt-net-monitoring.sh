@@ -506,6 +506,7 @@ write_environment() {
 
     cat > "$ENV_FILE" <<EOF
 NODE_ENV=production
+NUXT_TELEMETRY_DISABLED=1
 
 HOST=${APP_HOST}
 PORT=${APP_PORT}
